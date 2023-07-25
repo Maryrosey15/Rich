@@ -1,0 +1,44 @@
+/* Dark blue1 #202C39
+Dark blue2 #283845
+Brown #B8B08D
+Light Brown #F2D492
+Orange #F29559 */
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #202C39;
+}
+
+.headerLogo {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  text-align: center;
+}
+.logo {
+  display: flex;
+  height: 10%;
+  width:10%
+}
+
+nav > a {
+  color: white;
+}
+
+h1, h2 {
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 28px;
+}
