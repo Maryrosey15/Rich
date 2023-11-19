@@ -6,6 +6,7 @@ Hi everyone! Welcome to my blog site Learning with Rich. This blog site is dedic
 
 ----- Categories --------
 1. Revit MEP
-2. Revit Architecture
-3. Revit Structure
-4. Revit Electrical
+    > REVIT MECHANICAL DESIGN PROFESSIONAL CERTIFICATION PREP 
+2. Certification
+
+3. Exercise Files

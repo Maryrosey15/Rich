@@ -11,6 +11,7 @@ Orange #F29559 */
 
 body {
     background: #202C39;
+    margin: 2%;
 }
 
 .headerLogo {
@@ -41,4 +42,12 @@ h1 {
 
 h2 {
   font-size: 28px;
+}
+
+hr {
+  border: 50px solid #202C39;
+}
+
+.img-intro {
+  max-width: 10px;
 }
