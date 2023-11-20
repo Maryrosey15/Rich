@@ -9,7 +9,7 @@
   <body>
     <div class="container-fluid">
         <!-- Navigation bar -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary rounded" aria-label="Eleventh navbar example">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary rounded fixed-top" aria-label="Eleventh navbar example">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><img src="./image/logo.jpeg" height="40" alt="">Learning with Rich</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,14 +41,11 @@
         </div>
         </nav>
         <!-- introduction-->
-        <section id="introduction">
-            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-                <div class="col-10 col-sm-12 col-lg-6">
-                  <img src="./image/image1.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
-                </div>
-                <div class="col-lg-6">
-                    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Once You Stop Learning, You Are Done…</h1>
-                    <p class="lead">Hi everyone! Welcome to my blog site Learning with Rich. This blog site is dedicated to everyone wishing to learn about Revit from beginner to advanced level. I'm providing a tutorial videos to help you understand and solve a problem that you might encounter in the future. I linked all my tutorial videos here to my Youtube channel, if you have a questions or inquiry please don't hesitate to get in touch. Please click the link below or use the dropdown menu to browse by category.</p>
+        <section id="introduction" style="background-image: url('/image/image1.jpg'); background-size: cover; ">
+            <div class="row">
+                <div class="col col-lg mt-5">
+                    <h1 class="mt-5 text-center text-white">Once You Stop Learning, You Are Done…</h1>
+                    <p class="lead text-white text-center">Hi everyone! Welcome to my blog site Learning with Rich. This blog site is dedicated to everyone wishing to learn about Revit from beginner to advanced level. I'm providing a tutorial videos to help you understand and solve a problem that you might encounter in the future. I linked all my tutorial videos here to my Youtube channel, if you have a questions or inquiry please don't hesitate to get in touch. Please click the link below.</p>
                     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
                       <a href="https://www.youtube.com/@bim360">Youtube Learning with Rich</a>
                     </div>
@@ -62,61 +59,49 @@
           <h2 class="mb-5 text-center">Revit Tutorials</h2>
             <div class="container-fluid">
               <div class="row">
-                <div class="col-lg">
-                  <h3>Structural Design Revit 2024 Playlist Tutorial </h3>
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
+                  <h3>Revit Structural 2024</h3>
                   <iframe
-                    width="560"
-                    height="315"
                     src="https://www.youtube.com/embed/videoseries?list=PL5ZA2y2xWxReysQRxOki1gjhcx8rT8gVi"
                     frameborder="0"
                     allowfullscreen
                   ></iframe>
                 </div>
-                <div class="col-lg">
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
                   <h3>Revit Architecture 2024</h3>
                   <iframe
-                    width="560"
-                    height="315"
                     src="https://www.youtube.com/embed/videoseries?list=PL5ZA2y2xWxRf5mSHRPbfihWgcxOXgz5lu"
                     frameborder="0"
                     allowfullscreen
                   ></iframe>
                 </div>
-                <div class="col-lg">
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
                   <h3>Revit MEP 2024 Tutorial</h3>
                   <iframe
-                    width="560"
-                    height="315"
                     src="https://www.youtube.com/embed/videoseries?list=PL5ZA2y2xWxRdIQL_cF3p7Wd-MqdYmVuNX"
                     frameborder="0"
                     allowfullscreen
                   ></iframe>
                 </div>
-                <div class="col-lg">
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
                   <h3>Revit MEP 2023 Tutorial</h3>
                   <iframe
-                    width="560"
-                    height="315"
                     src="https://www.youtube.com/embed/videoseries?list=PL5ZA2y2xWxRd35PHx_bO2BsmqPyuNEIvN"
                     frameborder="0"
                     allowfullscreen
                   ></iframe>
                 </div>
-                <div class="col-lg">
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
                   <h3>Revit Structural 2023 Tutorial</h3>
                   <iframe
-                    width="560"
-                    height="315"
                     src="https://www.youtube.com/embed/videoseries?list=PL5ZA2y2xWxRfM9t46dXcVuW9BvLpbSx7Z"
                     frameborder="0"
                     allowfullscreen
                   ></iframe>
                 </div>
-                <div class="col-lg">
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
                   <h3>Revit 2023 New Features</h3>
                   <iframe
-                    width="560"
-                    height="315"
                     src="https://www.youtube.com/embed/videoseries?list=PL5ZA2y2xWxRdswrQq8Tgb8Dzpcde5wpYc"
                     frameborder="0"
                     allowfullscreen
@@ -136,8 +121,6 @@
               <div class="col-lg">
                 <h3>Revit Mechanical Certification Exam Preparation</h3>
                 <iframe
-                  width="560"
-                  height="315"
                   src="https://www.youtube.com/embed/videoseries?list=PL5ZA2y2xWxRcP25SMEKq0ymxEOX80Hr3K"
                   frameborder="0"
                   allowfullscreen
@@ -158,12 +141,10 @@
         <section id="others">
           <h2 class="mb-5 text-center">Others</h2>
             <div class="container-fluid">
-              <div class="row">
-                <div class="col-lg">
+              <div class="row align-items-center mb-5">
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
                   <h3>Revizto</h3>
                   <iframe
-                    width="560"
-                    height="315"
                     src="https://www.youtube.com/embed/videoseries?list=PL5ZA2y2xWxRckYgaLt43GLCATKW-9YLW5"
                     frameborder="0"
                     allowfullscreen
@@ -180,7 +161,7 @@
       </div>
 
       <!-- Footer -->
-      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 mx-5 border-top">
           <div class="col-md-4 d-flex align-items-center">
             <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
               <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
