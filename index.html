@@ -24,141 +24,126 @@
                 <li class="nav-item">
                 <a class="nav-link" href="./pages/about.html">About Me</a>
                 </li>
-                <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Categories</a>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#revit-tutorials">Revit Tutorials</a></li>
-                    <li><a class="dropdown-item" href="#certification-prep">Certificaton Prep</a></li>
-                    <li><a class="dropdown-item" href="#exercise-files">Exercise Files</a></li>
-                    <li><a class="dropdown-item" href="#others">Others</a></li>
-                </ul>
-                </li>
             </ul>
             <form role="search">
-                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                <input id="search-input" class="form-control" type="search" placeholder="Search" aria-label="Search">
             </form>
             </div>
         </div>
         </nav>
         <!-- introduction-->
-        <section id="introduction" style="background-image: url('/image/image1.jpg'); background-size: cover; ">
+        <section id="introduction" style="background-color: burlywood; height: 100%; background-position: center; background-repeat: no-repeat; background-size: cover;">
             <div class="row">
-                <div class="col col-lg mt-5">
-                    <h1 class="mt-5 text-center text-white">Once You Stop Learning, You Are Done…</h1>
-                    <p class="lead text-white text-center">Hi everyone! Welcome to my blog site Learning with Rich. This blog site is dedicated to everyone wishing to learn about Revit from beginner to advanced level. I'm providing a tutorial videos to help you understand and solve a problem that you might encounter in the future. I linked all my tutorial videos here to my Youtube channel, if you have a questions or inquiry please don't hesitate to get in touch. Please click the link below.</p>
+                <div class="col col-lg mt-5 py-5 px-5">
+                    <h1 class="mt-5 text-center text-white" style="mix-blend-mode: difference;">Once You Stop Learning, You Are Done…</h1>
+                    <p class="lead text-white text-center mx-3 my-3" style="mix-blend-mode: difference;">Hi everyone! Welcome to my blog site Learning with Rich. This blog site is dedicated to everyone wishing to learn about Revit from beginner to advanced level. I'm providing a tutorial videos to help you understand and solve a problem that you might encounter in the future. I linked all my tutorial videos here to my Youtube channel, if you have a questions or inquiry please don't hesitate to get in touch. Please click the link below.</p>
                     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                      <a href="https://www.youtube.com/@bim360">Youtube Learning with Rich</a>
+                      <a href="https://www.youtube.com/@bim360" class="text-white" style="mix-blend-mode: difference;">Youtube Learning with Rich</a>
                     </div>
                   </div>
-
         </section>
+      </div>
+
       <hr>
-
-        <!-- Revit Tutorials -->
-        <section id="revit-tutorials">
-          <h2 class="mb-5 text-center">Revit Tutorials</h2>
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
-                  <h3>Revit Structural 2024</h3>
-                  <iframe
-                    src="https://www.youtube.com/embed/videoseries?list=PL5ZA2y2xWxReysQRxOki1gjhcx8rT8gVi"
-                    frameborder="0"
-                    allowfullscreen
-                  ></iframe>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
-                  <h3>Revit Architecture 2024</h3>
-                  <iframe
-                    src="https://www.youtube.com/embed/videoseries?list=PL5ZA2y2xWxRf5mSHRPbfihWgcxOXgz5lu"
-                    frameborder="0"
-                    allowfullscreen
-                  ></iframe>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
-                  <h3>Revit MEP 2024 Tutorial</h3>
-                  <iframe
-                    src="https://www.youtube.com/embed/videoseries?list=PL5ZA2y2xWxRdIQL_cF3p7Wd-MqdYmVuNX"
-                    frameborder="0"
-                    allowfullscreen
-                  ></iframe>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
-                  <h3>Revit MEP 2023 Tutorial</h3>
-                  <iframe
-                    src="https://www.youtube.com/embed/videoseries?list=PL5ZA2y2xWxRd35PHx_bO2BsmqPyuNEIvN"
-                    frameborder="0"
-                    allowfullscreen
-                  ></iframe>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
-                  <h3>Revit Structural 2023 Tutorial</h3>
-                  <iframe
-                    src="https://www.youtube.com/embed/videoseries?list=PL5ZA2y2xWxRfM9t46dXcVuW9BvLpbSx7Z"
-                    frameborder="0"
-                    allowfullscreen
-                  ></iframe>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
-                  <h3>Revit 2023 New Features</h3>
-                  <iframe
-                    src="https://www.youtube.com/embed/videoseries?list=PL5ZA2y2xWxRdswrQq8Tgb8Dzpcde5wpYc"
-                    frameborder="0"
-                    allowfullscreen
-                  ></iframe>
-                </div>
-
-              </div>
-            </div>
-        </section>
-        <hr>
-
-        <!-- Certification Preparation -->
-        <section id="certification-prep">
-          <h2 class="mb-5 text-center">Certification Preparation</h2>
+      <!-- Revit Tutorials -->
+      <section id="revit-tutorials">
+        <h2 class="mt-5 text-center">Revit Tutorials</h2>
           <div class="container-fluid">
             <div class="row">
-              <div class="col-lg">
-                <h3>Revit Mechanical Certification Exam Preparation</h3>
+              <div class="col-lg-4 col-md-6 col-sm-12 mt-5 searchable-content" data-title="Revit Structural">
+                <p>Revit Structural 2024</p>
                 <iframe
-                  src="https://www.youtube.com/embed/videoseries?list=PL5ZA2y2xWxRcP25SMEKq0ymxEOX80Hr3K"
+                  src="https://www.youtube.com/embed/videoseries?list=PL5ZA2y2xWxReysQRxOki1gjhcx8rT8gVi"
                   frameborder="0"
                   allowfullscreen
                 ></iframe>
               </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
+                <p>Revit Architecture 2024</p>
+                <iframe
+                  src="https://www.youtube.com/embed/videoseries?list=PL5ZA2y2xWxRf5mSHRPbfihWgcxOXgz5lu"
+                  frameborder="0"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
+                <p>Revit MEP 2024 Tutorial</p>
+                <iframe
+                  src="https://www.youtube.com/embed/videoseries?list=PL5ZA2y2xWxRdIQL_cF3p7Wd-MqdYmVuNX"
+                  frameborder="0"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
+                <p>Revit MEP 2023 Tutorial</p>
+                <iframe
+                  src="https://www.youtube.com/embed/videoseries?list=PL5ZA2y2xWxRd35PHx_bO2BsmqPyuNEIvN"
+                  frameborder="0"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
+                <p>Revit Structural 2023 Tutorial</p>
+                <iframe
+                  src="https://www.youtube.com/embed/videoseries?list=PL5ZA2y2xWxRfM9t46dXcVuW9BvLpbSx7Z"
+                  frameborder="0"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
+                <p>Revit 2023 New Features</p>
+                <iframe
+                  src="https://www.youtube.com/embed/videoseries?list=PL5ZA2y2xWxRdswrQq8Tgb8Dzpcde5wpYc"
+                  frameborder="0"
+                  allowfullscreen
+                ></iframe>
+              </div>
+
             </div>
           </div>
-         
-        </section>
-        <hr>
-        
-        <!-- Exercise Files -->
-        <section id="exercise-files">
-          <h2 class="mb-5 text-center">Exercise Files</h2>
-        </section>
+      </section>
+      <hr>
 
-        <!-- Other Files -->
-        <section id="others">
-          <h2 class="mb-5 text-center">Others</h2>
-            <div class="container-fluid">
-              <div class="row align-items-center mb-5">
-                <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
-                  <h3>Revizto</h3>
-                  <iframe
-                    src="https://www.youtube.com/embed/videoseries?list=PL5ZA2y2xWxRckYgaLt43GLCATKW-9YLW5"
-                    frameborder="0"
-                    allowfullscreen
-                  ></iframe>
-                </div>
-
+      <!-- Certification Preparation -->
+      <section id="certification-prep">
+        <h2 class="mb-5 text-center">Certification Preparation</h2>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg">
+              <p>Revit Mechanical Certification Exam Preparation</p>
+              <iframe
+                src="https://www.youtube.com/embed/videoseries?list=PL5ZA2y2xWxRcP25SMEKq0ymxEOX80Hr3K"
+                frameborder="0"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+       
+      </section>
+      <hr>
+      
+      <!-- Other Tutorials -->
+      <section id="others">
+        <h2 class="mb-5 text-center">Other Tutorial</h2>
+          <div class="container-fluid">
+            <div class="row align-items-center mb-5">
+              <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
+                <p>Revizto</p>
+                <iframe
+                  src="https://www.youtube.com/embed/videoseries?list=PL5ZA2y2xWxRckYgaLt43GLCATKW-9YLW5"
+                  frameborder="0"
+                  allowfullscreen
+                ></iframe>
               </div>
 
             </div>
 
+          </div>
 
-        </section>
 
-      </div>
+      </section>
+
 
       <!-- Footer -->
       <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 mx-5 border-top">
@@ -176,7 +161,7 @@
           </ul>
         </footer>
     </div>
-    <script src="./js/script.js"></script>
+    <script src="./css/style.css"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
   </body>
 </html>
