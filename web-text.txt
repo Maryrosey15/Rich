@@ -1,39 +1,4 @@
 
------ home --------
-Hi everyone! Welcome to my blog site Learning with Rich. This blog site is dedicated to everyone wishing to learn about Revit from beginner to advanced level. I'm providing a tutorial videos to help you understand and solve a problem that you might encounter in the future. I linked all my tutorial videos here to my Youtube channel, if you have a questions or inquiry please don't hesitate to get in touch.
-
------ About Me--------
-Before:
-    <p class="lead">I really can’t think that much in writing the about page of this site…Really…Why create this site? During the time I was starting to learn Revit, I only have one reliable source to learn that time and I know the feeling (pain!) of you looking for someone that will guide you but nobody there or they are also starting learn. So I thought of creating this site to help individuals learn Revit without the hassle of reading a lot of articles because all of the contents here are all video created by me with the help of other users also.</p>
-    <p class="lead">Good thing about this site is I AM NOT HARD TO APPROACH, I interact well with the audience. I am always ready, with God’s help, to assist whenever doubt arises about the exercises. I already created my YouTube channel, got quite a good numbers of subscribers and all the videos that I have uploaded there will also be uploaded here as well…=) Saves time for me!</p>
-    <p class="lead">The topics in this site is mixed so it’s up to you guys to search for the one that you would like to watch, anyway these videos are free so stop complaining. There will be some repetition of the topics using different datasets because I believe doing the exercises again and again and again will eventually leads to learning. I am talking about base on experience, there will always a wisdom that you can extract from an exercise if you redo again.</p>
-    <p class="lead">Hopefully, you people out there will enjoy visiting this site and learn something that you can share with other people.</p>
-
-
-Now:
-    Richard Garcia
-
-    Introduction:
-
-    Hello! I'm Richard, and I'm delighted to welcome you to my profile. Here's a little bit about me:
-
-    I came from the Philippines, where I grew up and started my career in Revit. My educational journey led me to Adamson University, where I studied Bachelor in Mechanical Engineer.
-
-    Professional Experience:
-
-    I have 15 years of experience in Revit and BIM industry, specializing in BIM Management. Throughout my career, I've had the privilege of working with Autodesk, Innocom, Ong & Ong and many more.
-
-    Beyond my professional life, I am passionate about music. Whether it's playing piano or guitar with my kids, I find joy in practing music piece and perfected.
-
-    Currently, I am BIM Manager in respected company here in New Zealand, where I show case my skill in managing big projects where I can learn more and expand my knowledge. I am excited about the outcome of the current project.
-
-    Connect with Me:
-
-    I love connecting with like-minded individuals! Feel free to connect with me on my social media account or drop me an email here.
-
-    Thank you for taking the time to get to know me a little better. I'm always open to new opportunities and collaborations, so don't hesitate to reach out!
-
-
 
 ----- Categories --------
 1. Revit
@@ -72,7 +37,8 @@ Now:
 
 
 
-
+====== Need to do =======
+continue with search functionality.
 
 
 
